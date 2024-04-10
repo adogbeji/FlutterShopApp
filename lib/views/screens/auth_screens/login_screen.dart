@@ -10,7 +10,7 @@ class LoginScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Log In'),
+            Text('Log In', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold,),),
           ],
         ),
       ),
