@@ -39,7 +39,11 @@ class LoginScreen extends StatelessWidget {
               alignment: Alignment.topLeft,
               child: Text(
                 'Email',
-                style: GoogleFonts.getFont('Nunito Sans'),
+                style: GoogleFonts.getFont(
+                  'Nunito Sans',
+                  fontWeight: FontWeight.w600,
+                  letterSpacing: 0.2,
+                ),
               ),
             ),
           ],
