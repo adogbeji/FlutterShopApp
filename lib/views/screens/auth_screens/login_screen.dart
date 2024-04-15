@@ -38,7 +38,7 @@ class LoginScreen extends StatelessWidget {
               letterSpacing: 0.2,
             ),),
 
-            Image.asset('assets/images/padlock.jpg', width: 200, height: 200,),
+            Image.asset('assets/images/Illustration.png', width: 200, height: 200,),
           ],
         ),
       ),
